@@ -10,8 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Reinado de Souza Junior"]
   s.email       = ["juniorz@gmail.com"]
   s.homepage    = "http://github.com/juniorz/"
-  s.summary     = "TODO: Summary of AwesomeEngine."
-  s.description = "TODO: Description of AwesomeEngine."
+  s.summary     = "Rails Engines with automagic extensions."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]
