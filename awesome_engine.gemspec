@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = AwesomeEngine::VERSION
   s.authors     = ["Reinado de Souza Junior"]
   s.email       = ["juniorz@gmail.com"]
-  s.homepage    = "http://github.com/juniorz/"
+  s.homepage    = "http://github.com/juniorz/awesome_engine"
   s.summary     = "Rails Engines with automagic extensions."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
