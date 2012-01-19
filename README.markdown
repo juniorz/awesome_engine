@@ -57,4 +57,5 @@ Not available yet.
 ## TODO
 
 * How it works
+* I cant define a concern called `ActiveRecord::BaseConcern` because it will not work
 * Make it testable (I dont want to make it dependent on rails gem, just railtie)

@@ -23,7 +23,7 @@ module AwesomeEngine
     def default_paths_for(name, including=nil)
       default_paths = Array(including)
       default_paths << "lib/#{awesome_path_scope}/extensions"
-      default_paths << "lib/#{engine_name}/extensions"
+      default_paths << "lib/#{ActiveSupport::Inflector.underscore(self.class.parent)}/extensions"
 
       default_paths.uniq.each do |p|
         paths_for(name) << p
