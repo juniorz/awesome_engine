@@ -15,6 +15,5 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "railties", "~> 3.1.3"
-
+  s.add_dependency "railties", "~> 3", ">= 3.1.3" # Rails 3.2 compatible 
 end
